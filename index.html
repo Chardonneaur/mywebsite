@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <!-- Matomo Tag Manager -->
+<script>
+  var _mtm = window._mtm = window._mtm || [];
+  _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+  (function() {
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src='https://cdn.matomo.cloud/ronanchardonneau.matomo.cloud/container_HI3mpWuD.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Tag Manager -->
     <title>My CV</title>
     <style>
         body {
@@ -17,8 +27,8 @@
 <body>
     <div class="section">
         <h1>John Doe</h1>
-        <p>Email: john.doe@example.com</p>
-        <p>Phone: 123-456-7890</p>
+        <p><a href="mailto:john.doe@example.com" onclick="window._mtm.push({'event': 'action', 'email': 'john.doe@example.com'});">Email: john.doe@example.com</a></p>
+        <p><a href="tel:123-456-7890" onclick="window._mtm.push({'event': 'action', 'phone': '123-456-7890'});">Phone: 123-456-7890</a></p>
     </div>
 
     <div class="section">
